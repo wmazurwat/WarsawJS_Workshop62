@@ -11,9 +11,9 @@ const Info = ({ text }: { text: string }) => (
 const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
-      <img src="https://media0.giphy.com/media/Q3nPhaJSwyPJP2LNVU/giphy.gif?cid=ecf05e476h0iq2p6y2skw8lnr0236xs0iu5l62cmr0uez7r1&rid=giphy.gif&ct=g" />
+      <Info text={'NO.2.'} />
 
-      <Info text={'Hi there.'} />
+      <img src="https://media4.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif?cid=ecf05e477meg6e7wtbbya9namgp4unrjauybc57cz52sl6gi&rid=giphy.gif&ct=g" />
     </Content>
     <p> Pozdrawiam Jacka! A i jeszcze jedno, które kolano?</p>
   </Main>
